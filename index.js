@@ -1,8 +1,8 @@
 const Notification = (props) => {
-  
+  const {class,content,url} = props;
   console.log(props.class)
   return(
-      <div className = {class}>
+      <div className = {`${class}`}>
           <p>{content}</p>
       </div>
   )
